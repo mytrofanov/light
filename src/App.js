@@ -6,7 +6,7 @@ function App() {
 
 
     let text = `In this text you should highlight word text`
-    let text2 = ['saaaas', 'sabbbbs', 'satexts', 'sawords', 'saaa bbbs', 'saaa cccs', 'maximus']
+    let text2 = ['saaaas', 'sabbbbs', 'satexts', 'sawords', 'saaa bbbs', 'saaa cccs', 'maximus','arahnid']
     let searchText = 'a'
     let regularSearchText =new RegExp(searchText, 'gi')
     // let resultText = `<mark>${searchText}</mark>`
@@ -24,7 +24,6 @@ function App() {
                         textHighlighter = [
                             result.substring(0, searchKeywordIdx),
                             <strong key={i}>
-                                {/*{result.substring(searchKeywordIdx, searchKeywordIdx + searchText.length)}*/}
                                 {result.match(regularSearchText)}
                             </strong>,
                             result.slice(searchKeywordIdx + lightLength)
