@@ -15,9 +15,9 @@ function App() {
 </div>
 
 <div className='buttons'>
-<button>Start/Stop</button>
-<button>Wait</button>
-<button>Reset</button>
+<button className='controlButtons'>Start/Stop</button>
+<button className='controlButtons'>Wait</button>
+<button className='controlButtons'>Reset</button>
 
 </div>
 
