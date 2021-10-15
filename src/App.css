@@ -11,6 +11,22 @@ body {
   background: gold;
 }
 
+.frame {
+  margin: 0 auto;
+  width: 500px;
+  background-color: darkolivegreen;
+}
+.screen {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+}
+
+.time {
+  width: 30%;
+  background-color: cadetblue;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
