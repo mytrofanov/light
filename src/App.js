@@ -1,10 +1,22 @@
 import './App.css';
+import {useState} from "react";
 
 
 
 function App() {
+    let [startButton, setStartButon] = useState(false);
+
+
+    let mileseconds = 0
+    let seconds = 0
+    let minutes = 0
+
  function StartStop() {
-     let se
+     setStartButon(!startButton)
+    if (startButton = true) {
+
+    }
+
  }
 
     return (
